@@ -20,7 +20,7 @@ function FollowButton({ userId }: { userId: string }) {
         } finally {
           setIsLoading(false);
         }
-      };
+    };
 
     
     return (
