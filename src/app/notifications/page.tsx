@@ -25,7 +25,7 @@ const getNotificationIcon = (type: string) => {
         return null;
     }
 };
-
+     
 function NotificationsPage() {
     const [notifications, setNotifications] = useState<Notification[]>([]);
     const [isLoading, setIsLoading] = useState(true);
